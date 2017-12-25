@@ -1,0 +1,3 @@
+This repository contains a C++ implementation of the GoDec algorithm for decomposing a matrix into low-rank and sparse components.  See [T. Zhou and D. Tao., _Godec: Randomized Low-Rank & Sparse Matrix Decomposition in Noisy Case_](http://www.icml-2011.org/papers/41_icmlpaper.pdf).  The algorithm has been used for compression of deep neural networks, whose weight tensors can often be approximated well as sums of low-rank and sparse tensors.  See [Yu et al., _On Compressing Deep Models by Low Rank and Sparse Decomposition_](https://pdfs.semanticscholar.org/7551/cc8e398b34cba3ec46569326273da3e9a3df.pdf).
+
+This code requires the [Eigen](eigen.tuxfamily.org/) linear algebra library.
